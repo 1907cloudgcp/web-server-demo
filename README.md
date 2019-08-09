@@ -8,4 +8,12 @@
   
   -run 'npm install'
   
+  -Make environment variables 
+  
+      -SERVER_KEY = path to the key for the cert
+      
+      -SERVER_CERT = path to the cert
+      
+      -SERVER_PASS = passphrase for server_key 
+  
   -run 'npm start'
