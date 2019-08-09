@@ -7,7 +7,7 @@ let app = express()
 //this is for setting up the ssl server
 let options = {
     key: fs.readFileSync(process.env['SERVER_KEY']),
-    cert: fs.readFileSync(process.enc['SERVER_CERT']),
+    cert: fs.readFileSync(process.env['SERVER_CERT']),
     passphrase: process.env['SERVER_PASS']
 }
 
